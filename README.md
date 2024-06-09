@@ -1,4 +1,4 @@
-# TEE-PBFT
+# TEP-BFT
 This is the official code for the paper entitled "Parallel Byzantine Fault Tolerance Consensus Based on Trusted Execution Environments".
 
 # Project Requirements
