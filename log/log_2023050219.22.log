@@ -1,0 +1,95 @@
+info|2023-05-02 19:22:38.347159|[INITIALIZER]initGlobalConfig
+info|2023-05-02 19:22:38.347244|[NodeConfig][METRIC]loadChainConfig,smCrypto=false,chainId=chain0,groupId=group0,blockLimit=1000
+info|2023-05-02 19:22:38.347268|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587,weight=1
+info|2023-05-02 19:22:38.347277|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=17d8a8405377274d8587a36c37caf1d888d7dcf158be686045f313b0f2bd8699d4c967b3d40421e9810a1bf45632dbb03f34bce5ab8b7783150c1643aaf4dea2,weight=1
+info|2023-05-02 19:22:38.347284|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=9da6cb423d7826b96dde51e588a44f153ed2ff4aa75cacba6a6f267bea3851853f666808aaa3491c7b2822d9ea9d7c0777c95ca5038dbe85520b6d55af53d200,weight=1
+info|2023-05-02 19:22:38.347290|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=ca26ab8a96cbf894099d3abf23d9d5e7e156b881433b8600fb693187e9250f77ac482f5117f9af98396e1d9f7af1e9ea2b1b01d7a54b6da05e6dfda5a936763d,weight=1
+info|2023-05-02 19:22:38.347293|[NodeConfig][parseConsensusNodeList],totalNodesSize=4
+info|2023-05-02 19:22:38.347296|[NodeConfig]loadLedgerConfig,consensus_type=pbft,block_tx_count_limit=1000,gas_limit=3000000000,leader_period=1,minSealTime=0,compatibilityVersion=3.2.0
+info|2023-05-02 19:22:38.347304|[NodeConfig][METRIC]loadExecutorConfig,isWasm=false,isAuthCheck=false,authAdminAccount=,ismSerialExecute=true
+info|2023-05-02 19:22:38.347325|[NodeConfig][generateGenesisData],genesisData=[chain]
+sm_crypto:0
+chainID: chain0
+grouID: group0
+[consensys]
+consensus_type: pbft
+block_tx_count_limit:1000
+leader_period:1
+[version]
+compatibility_version:3.2.0
+[tx]
+gaslimit:3000000000
+[executor]
+iswasm: 0
+isAuthCheck:0
+authAdminAccount:
+isSerialExecute:1
+node.0:17d8a8405377274d8587a36c37caf1d888d7dcf158be686045f313b0f2bd8699d4c967b3d40421e9810a1bf45632dbb03f34bce5ab8b7783150c1643aaf4dea2,1
+node.1:7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587,1
+node.2:9da6cb423d7826b96dde51e588a44f153ed2ff4aa75cacba6a6f267bea3851853f666808aaa3491c7b2822d9ea9d7c0777c95ca5038dbe85520b6d55af53d200,1
+node.3:ca26ab8a96cbf894099d3abf23d9d5e7e156b881433b8600fb693187e9250f77ac482f5117f9af98396e1d9f7af1e9ea2b1b01d7a54b6da05e6dfda5a936763d,1
+info|2023-05-02 19:22:38.347435|[NodeConfig]loadCertConfig,ca_path=./conf,sm_ca_cert=./conf/sm_ca.crt,sm_node_cert=./conf/sm_ssl.crt,sm_node_key=./conf/sm_ssl.key,sm_ennode_cert=./conf/sm_enssl.crt,sm_ennode_key=./conf/sm_enssl.key
+info|2023-05-02 19:22:38.347448|[NodeConfig]loadCertConfig,ca_path=./conf,ca_cert=./conf/ca.crt,node_cert=./conf/ssl.crt,node_key=./conf/ssl.key
+info|2023-05-02 19:22:38.347478|[NodeConfig]loadRpcConfig,listenIP=0.0.0.0,listenPort=20200,listenPort=20200,smSsl=false,disableSsl=false
+info|2023-05-02 19:22:38.347493|[NodeConfig]loadGatewayConfig,listenIP=0.0.0.0,listenPort=30300,listenPort=30300,smSsl=false,nodesFile=nodes.json
+info|2023-05-02 19:22:38.347502|[NodeConfig]loadSealerConfig,minSealTime=500
+info|2023-05-02 19:22:38.347526|[NodeConfig]loadTxPoolConfig,txpoolLimit=15000,notifierWorkers=2,verifierWorkers=8,txsExpirationTime(ms)=600000
+info|2023-05-02 19:22:38.347539|[NodeConfig]loadSecurityConfig,enable_hsm=false,privateKeyPath=conf/node.pem
+info|2023-05-02 19:22:38.347554|[NodeConfig]loadStorageConfig,storagePath=data,KeyPage=10240,storageType=RocksDB,pdAddrs=127.0.0.1:2379,pdCaPath=,enableArchive=false,archiveListenIP=,archiveListenPort=0,enableLRUCacheStorage=true
+info|2023-05-02 19:22:38.347565|[NodeConfig]loadConsensusConfig,checkPointTimeoutInterval=3000
+info|2023-05-02 19:22:38.347569|[NodeConfig]loadOthersConfig,sendTxTimeout=-1,vmCacheSize=1024
+info|2023-05-02 19:22:38.347644|[NodeConfig][METRIC]loadChainConfig,smCrypto=false,chainId=chain0,groupId=group0,blockLimit=1000
+info|2023-05-02 19:22:38.347666|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587,weight=1
+info|2023-05-02 19:22:38.347681|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=17d8a8405377274d8587a36c37caf1d888d7dcf158be686045f313b0f2bd8699d4c967b3d40421e9810a1bf45632dbb03f34bce5ab8b7783150c1643aaf4dea2,weight=1
+info|2023-05-02 19:22:38.347693|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=9da6cb423d7826b96dde51e588a44f153ed2ff4aa75cacba6a6f267bea3851853f666808aaa3491c7b2822d9ea9d7c0777c95ca5038dbe85520b6d55af53d200,weight=1
+info|2023-05-02 19:22:38.347706|[NodeConfig][parseConsensusNodeList],sectionName=consensus,nodeId=ca26ab8a96cbf894099d3abf23d9d5e7e156b881433b8600fb693187e9250f77ac482f5117f9af98396e1d9f7af1e9ea2b1b01d7a54b6da05e6dfda5a936763d,weight=1
+info|2023-05-02 19:22:38.347714|[NodeConfig][parseConsensusNodeList],totalNodesSize=4
+info|2023-05-02 19:22:38.347719|[NodeConfig]loadLedgerConfig,consensus_type=pbft,block_tx_count_limit=1000,gas_limit=3000000000,leader_period=1,minSealTime=0,compatibilityVersion=3.2.0
+info|2023-05-02 19:22:38.347730|[NodeConfig][METRIC]loadExecutorConfig,isWasm=false,isAuthCheck=false,authAdminAccount=,ismSerialExecute=true
+info|2023-05-02 19:22:38.347750|[NodeConfig][generateGenesisData],genesisData=[chain]
+sm_crypto:0
+chainID: chain0
+grouID: group0
+[consensys]
+consensus_type: pbft
+block_tx_count_limit:1000
+leader_period:1
+[version]
+compatibility_version:3.2.0
+[tx]
+gaslimit:3000000000
+[executor]
+iswasm: 0
+isAuthCheck:0
+authAdminAccount:
+isSerialExecute:1
+node.0:17d8a8405377274d8587a36c37caf1d888d7dcf158be686045f313b0f2bd8699d4c967b3d40421e9810a1bf45632dbb03f34bce5ab8b7783150c1643aaf4dea2,1
+node.1:7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587,1
+node.2:9da6cb423d7826b96dde51e588a44f153ed2ff4aa75cacba6a6f267bea3851853f666808aaa3491c7b2822d9ea9d7c0777c95ca5038dbe85520b6d55af53d200,1
+node.3:ca26ab8a96cbf894099d3abf23d9d5e7e156b881433b8600fb693187e9250f77ac482f5117f9af98396e1d9f7af1e9ea2b1b01d7a54b6da05e6dfda5a936763d,1
+info|2023-05-02 19:22:38.347860|[NodeConfig]loadCertConfig,ca_path=./conf,sm_ca_cert=./conf/sm_ca.crt,sm_node_cert=./conf/sm_ssl.crt,sm_node_key=./conf/sm_ssl.key,sm_ennode_cert=./conf/sm_enssl.crt,sm_ennode_key=./conf/sm_enssl.key
+info|2023-05-02 19:22:38.347871|[NodeConfig]loadCertConfig,ca_path=./conf,ca_cert=./conf/ca.crt,node_cert=./conf/ssl.crt,node_key=./conf/ssl.key
+info|2023-05-02 19:22:38.347882|[NodeConfig]loadRpcConfig,listenIP=0.0.0.0,listenPort=20200,listenPort=20200,smSsl=false,disableSsl=false
+info|2023-05-02 19:22:38.347892|[NodeConfig]loadGatewayConfig,listenIP=0.0.0.0,listenPort=30300,listenPort=30300,smSsl=false,nodesFile=nodes.json
+info|2023-05-02 19:22:38.347901|[NodeConfig]loadSealerConfig,minSealTime=500
+info|2023-05-02 19:22:38.347916|[NodeConfig]loadTxPoolConfig,txpoolLimit=15000,notifierWorkers=2,verifierWorkers=8,txsExpirationTime(ms)=600000
+info|2023-05-02 19:22:38.347927|[NodeConfig]loadSecurityConfig,enable_hsm=false,privateKeyPath=conf/node.pem
+info|2023-05-02 19:22:38.347945|[NodeConfig]loadStorageConfig,storagePath=data,KeyPage=10240,storageType=RocksDB,pdAddrs=127.0.0.1:2379,pdCaPath=,enableArchive=false,archiveListenIP=,archiveListenPort=0,enableLRUCacheStorage=true
+info|2023-05-02 19:22:38.347955|[NodeConfig]loadConsensusConfig,checkPointTimeoutInterval=3000
+info|2023-05-02 19:22:38.347959|[NodeConfig]loadOthersConfig,sendTxTimeout=-1,vmCacheSize=1024
+info|2023-05-02 19:22:38.347975|[INITIALIZER]init crypto suite success
+info|2023-05-02 19:22:38.347979|[INITIALIZER]init blockFactory success
+info|2023-05-02 19:22:38.348008|[INITIALIZER][SecureInitializer]loading privateKey
+info|2023-05-02 19:22:38.348144|[INITIALIZER]loadKeyPair from privateKey,privateKeySize=32,enableStorageSecurity=false
+info|2023-05-02 19:22:38.352235|[INITIALIZER][METRIC]loadKeyPair from privateKeyPath,privateKeyPath=conf/node.pem
+info|2023-05-02 19:22:38.352244|[INITIALIZER][METRIC]loadKeyPair success,publicKey=7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587
+info|2023-05-02 19:22:38.352365|[NodeConfig]loadNodeServiceConfig,withoutTarsFramework=false
+info|2023-05-02 19:22:38.352376|[NodeConfig]load node service,nodeName=7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587,withoutTarsFramework=false,schedulerServiceName=chain0.7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587SchedulerService,executorServiceName=chain0.7e8db99643e78251c8fe6bc9d21e64f461d50aa5371f4413427d55a8b90fb629dae02ba9f2da9d4a618d925cc3da3268983962960d0fe0c898e33e944ace2587ExecutorService
+info|2023-05-02 19:22:38.352492|[Gateway][Config]initP2PConfig ok!,listenIP=0.0.0.0,listenPort=30300,smSSL=false,nodePath=./,nodeFileName=nodes.json
+info|2023-05-02 19:22:38.352510|[Gateway][Config]the total_outgoing_bw_limit is not initialized
+info|2023-05-02 19:22:38.352513|[Gateway][Config]the conn_outgoing_bw_limit is not initialized
+info|2023-05-02 19:22:38.352516|[Gateway][Config]the group_outgoing_bw_limit is not initialized
+info|2023-05-02 19:22:38.352520|[Gateway][Config][initRateLimiterConfig],enableRateLimit=false,statInterval=60000,enableDistributedRatelimit=false,enableDistributedRateLimitCache=true,distributedRateLimitCachePercent=20,enableGroupRateLimit=false,enableConRateLimit=false,totalOutgoingBwLimit=-1,connOutgoingBwLimit=-1,groupOutgoingBwLimit=-1,moduleIDs=raft,pbft,cons_txs_sync,ips size=0,groups size=0
+info|2023-05-02 19:22:38.352534|[Gateway][Config]initCertConfig,ca_path=./conf,ca_cert=./conf/ca.crt,node_cert=./conf/ssl.crt,node_key=./conf/ssl.key
+info|2023-05-02 19:22:38.352568|[Gateway][Config]initCertConfig,ca=./conf/ca.crt,node_cert=./conf/ssl.crt,node_key=./conf/ssl.key
+info|2023-05-02 19:22:38.352582|[Gateway][Config]initConfig ok!,configPath=/home/ubuntu/fisco/sgx_nodes/127.0.0.1/node0/config.ini,listenIP=0.0.0.0,listenPort=30300,smSSL=false,peers=0

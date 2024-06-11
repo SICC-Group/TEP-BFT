@@ -1,0 +1,14 @@
+Server:
+  RunMode: debug
+  # 由于是同一台机器,使用web服务器记得换端口,如果是不同机器可忽略
+  HttpPort: 8080 
+  ReadTimeout: 60
+  WriteTimeout: 60
+
+Fisco:
+  # Fisco启动脚本目录设置
+  FiscoStartPath: /home/ubuntu/fisco/sgx_nodes/127.0.0.1/node0/
+  # 该Fisco节点的监听端口号
+  FiscoPort: 20200
+  # Fisco停止脚本目录设置
+  FiscoStopPath: /home/ubuntu/fisco/sgx_nodes/127.0.0.1/node0/stop.sh
