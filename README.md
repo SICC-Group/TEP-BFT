@@ -4,6 +4,7 @@ sudo apt update
 sudo apt install -y wget python3-dev git curl zip unzip tar
 sudo apt install -y --no-install-recommends clang make build-essential cmake libssl-dev zlib1g-dev ca-certificates libgmp-dev flex bison patch libzstd-dev ninja-build pkg-config
 
+
 # 安装rust
 curl https://sh.rustup.rs -sSf | bash -s -- -y
 source $HOME/.cargo/env
