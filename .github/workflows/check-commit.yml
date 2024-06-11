@@ -1,4 +1,5 @@
 name: Commit Check
+
 on:
   push:
     paths-ignore:
@@ -19,15 +20,28 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
-    env:
-      PR_TITLE: ${{ github.event.pull_request.title }}
+
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 60
 
-      - name: Check
+      - name: Set up environment
         run: |
           sudo apt-get update
-          sudo apt-get -y install clang-format
-          bash tools/.ci/check-commit.sh
+          sudo apt-get -y install jq clang-format
+
+      - name: Get PR title
+        if: github.event_name == 'pull_request'
+        id: get_pr_title
+        run: echo "::set-output name=title::$(jq -r .title < $GITHUB_EVENT_PATH)"
+
+      - name: Print PR title (for debugging)
+        if: github.event_name == 'pullpull_request'
+        run: echo "PR title is: ${{ steps.get_pr_title.outputs.title }}"
+
+      - name: Check commit
+        run: bash tools/.ci/check-commit.sh
+        env:
+          PR_TITLE: ${{ steps.get_pr_title.outputs.title }}
+
