@@ -1,4 +1,3 @@
-1.修改pbft共识 v1版本，性能提升不大
 使用说明：
 1. 按照官方使用ubuntu22.04为环境下载依赖
 sudo apt update
