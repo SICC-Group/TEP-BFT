@@ -31,7 +31,9 @@ make -j4
 # 生成tgz包
 rm -rf fisco-bcos-tars-service/*.tgz && make tar
 ```
-编译完的二进制文件位于**FISCO-BCOS/build/fisco-bcos-air/**路径下。
+编译完的二进制文件位于
+**FISCO-BCOS/build/fisco-bcos-air/**
+路径下。
 # 部署
 ## 安装SGX驱动程序
 ```bash
@@ -253,3 +255,4 @@ sgx.allowed_files = [
 	"file:/etc/gai.conf",
 ]
 ```
+sgx.enclave_size和sys.stack.size这两个参数可以根据机器性能适当调试。
