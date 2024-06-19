@@ -1,6 +1,8 @@
 # TEP-BFT
 This is the official code for the paper entitled "Parallel Byzantine Fault Tolerance Consensus Based on Trusted Execution Environments".
 
+A Supplementary Materials PDF file is avaiable [here](https://github.com/SICC-Group/TEP-BFT/blob/main/Supplementary%20Materials.pdf), including some proofs and additional experiments.
+
 The Chinese version of README.md can be found at [README_zh.md](https://github.com/SICC-Group/TEP-BFT/blob/main/README_zh.md)
 
 The operating system used is Ubuntu 22.04.
